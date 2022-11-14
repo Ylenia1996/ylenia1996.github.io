@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+margin: 0px;
+}
+.left{
+background-color: #e087d8;
+width: 17rem;
+height: 100%;
+position: fixed;
+/*bottom: 0;*/
+}
+.right{
+background-color: white;
+margin-left: 19rem;
+position: absolute;
+font-family: "Open Sans", sans-serif;
+color: #868e96
+}
+.img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255,255,255,.2);
+    margin-left: 4rem;
+    margin-top: 2rem;
+    border-radius: 50%;
+}
+.text li {
+  color: white;
+  margin-left: -2rem;
+  text-align: center;
+  list-style-type: none;
+  font-family: "Open Sans", sans-serif;
+  padding: 8px;
+  text-transform: uppercase;
+}
+.text a{
+  text-decoration: none;
+  color: inherit;
+}
+.p-0 {
+    padding: 0!important;
+}
+h1 {
+    margin-bottom: 0.5rem;
+    font-family: 16px serif;
+    font-weight: 96px;
+    line-height: 1.2;
+    color: black;
+    text-decoration-color: #e087d8;
+    position: top;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-decoration: none;
+  text-align: inherit;
+  float: inherit;
+  font-family:serif;
+  font-size:x-large;
+}
+.subheading {
+    font-weight: 500;
+    font-family: 'Saira Extra Condensed',serif;
+    font-size: 1.35rem;
+}
+.mb-5 {
+    margin-bottom: 3rem!important;
+}
+.img-social,
+.img-skills {
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  border-radius: 20%;
+}
